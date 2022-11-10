@@ -1,0 +1,49 @@
+h1,label{
+    color: white;
+}
+h1{
+    margin-block-start: 0em;
+}
+
+#resultado{
+    color: white;
+    margin-top: 1em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    height: 1.5em;
+}
+
+.input-area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.container{
+    padding: 1.5em;
+    background-color: #1c1c1c;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+    align-items: center;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #ff9500;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}

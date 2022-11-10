@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slategrey;
+}
+
+form{
+    padding: 100px 150px;
+    height: 500px;
+    width: 500px;
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block
+}
+
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block
+}
